@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script src="https://code.angularjs.org/1.6.9/angular.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+
+  <!-- try build -->
+  <!--<script src="../../vendors/Array.from.js"></script>
+  <script src="../../vendors/Array.find.js"></script>-->
+  <script src="./dist/cube.js"></script>
+  <script src="./app.js"></script>
+  <script src="./component/tree-table.js"></script>
+  <script src="./component/TreeTableData.js"></script>
+  <script src="./model/ProductCube.js"></script>
+  <script src="./data/factTable.js"></script>
+  <script src="./data/dimensionHierarchies.js"></script>
+</head>
+<body>
+	<div ng-controller="AppController">
+		<div class="parent">
+			<div>
+                <details open>
+                  <summary>
+                    IMF WEO OLAP Cube (output data from .CSV file)
+                  </summary>
+
+                  <section>
+                    <tree-table added="false"
+                                editable="false"
+                                removable="false"
+                                table-data="countryIndicatorDateValueTable"
+                                on-change="reset()"></tree-table>
+                  </section>      
+                </details>
+			</div>
+       
+      </div>
+	</div>
+	<script>
+		angular.bootstrap(document, ['demo']);
+	</script>
+</body>
+</html>

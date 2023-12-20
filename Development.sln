@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Development.API", "Development.API\Development.API.csproj", "{490BEBB3-71DF-4A44-B4BC-DA07C6490FED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Development.UI", "Development.UI\Development.UI.csproj", "{00A69C52-A1CE-4733-A579-68FDBB2858D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database Scripts", "Database Scripts", "{96F471CF-9C69-4AC9-A736-ECD85E03C8E0}"
+	ProjectSection(SolutionItems) = preProject
+		Database Scripts\IMF.WEO.bak = Database Scripts\IMF.WEO.bak
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{15BCC7C1-9BFB-4289-96BF-485C9FEF1599}"
+	ProjectSection(SolutionItems) = preProject
+		Database Scripts\Scripts\ALL Together SELECT.sql = Database Scripts\Scripts\ALL Together SELECT.sql
+		Database Scripts\Scripts\Country Create.sql = Database Scripts\Scripts\Country Create.sql
+		Database Scripts\Scripts\Country Insert.sql = Database Scripts\Scripts\Country Insert.sql
+		Database Scripts\Scripts\Development Create.sql = Database Scripts\Scripts\Development Create.sql
+		Database Scripts\Scripts\Development Insert.sql = Database Scripts\Scripts\Development Insert.sql
+		Database Scripts\Scripts\Frequency Create.sql = Database Scripts\Scripts\Frequency Create.sql
+		Database Scripts\Scripts\Frequency Insert.sql = Database Scripts\Scripts\Frequency Insert.sql
+		Database Scripts\Scripts\Indicator Create.sql = Database Scripts\Scripts\Indicator Create.sql
+		Database Scripts\Scripts\Indicator Insert.sql = Database Scripts\Scripts\Indicator Insert.sql
+		Database Scripts\Scripts\Schema.sql = Database Scripts\Scripts\Schema.sql
+		Database Scripts\Scripts\Temp Create.sql = Database Scripts\Scripts\Temp Create.sql
+		Database Scripts\Scripts\Temp Insert - 0 - 999.sql = Database Scripts\Scripts\Temp Insert - 0 - 999.sql
+		Database Scripts\Scripts\Temp Insert - 1000 - 2000.sql = Database Scripts\Scripts\Temp Insert - 1000 - 2000.sql
+		Database Scripts\Scripts\Temp Insert - 2000 - 3000.sql = Database Scripts\Scripts\Temp Insert - 2000 - 3000.sql
+		Database Scripts\Scripts\Temp Insert - 3000 and rest.sql = Database Scripts\Scripts\Temp Insert - 3000 and rest.sql
+		Database Scripts\Scripts\vwDevelopment.sql = Database Scripts\Scripts\vwDevelopment.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{C124E622-8DB7-4563-A610-7C9336652ABC}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\How To.docx = Documentation\How To.docx
+		Documentation\Knowledge Check Test Data (IMF_WEO).xlsx = Documentation\Knowledge Check Test Data (IMF_WEO).xlsx
+		Documentation\Knowledge Check Test.pdf = Documentation\Knowledge Check Test.pdf
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{490BEBB3-71DF-4A44-B4BC-DA07C6490FED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{490BEBB3-71DF-4A44-B4BC-DA07C6490FED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{490BEBB3-71DF-4A44-B4BC-DA07C6490FED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{490BEBB3-71DF-4A44-B4BC-DA07C6490FED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00A69C52-A1CE-4733-A579-68FDBB2858D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00A69C52-A1CE-4733-A579-68FDBB2858D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00A69C52-A1CE-4733-A579-68FDBB2858D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00A69C52-A1CE-4733-A579-68FDBB2858D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{15BCC7C1-9BFB-4289-96BF-485C9FEF1599} = {96F471CF-9C69-4AC9-A736-ECD85E03C8E0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33F2C5A6-932D-4D0F-81D7-2D6D3D5CF973}
+	EndGlobalSection
+EndGlobal
